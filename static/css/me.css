@@ -134,9 +134,18 @@ line-height: 1.8;
 }
 
 /*------position------*/
+.m-fixed{
+  position: fixed !important;
+  z-index: 1 !important;
+}
 .m-right-top{
   position: absolute;
   top: 0;
+  right: 0;
+}
+.m-right-bottom{
+  position: absolute;
+  bottom: 0;
   right: 0;
 }
 
